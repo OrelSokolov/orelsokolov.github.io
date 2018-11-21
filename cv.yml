@@ -1,0 +1,172 @@
+contacts:
+  name: Oleg Orlov
+  overview: Ruby stack developer
+  email: orelcokolov@gmail.com
+  website: orelsokolov.github.io
+  phone: +375 25 917 79 30
+description: |
+  Hi, I am a senior Ruby on Rails developer with over 3 years' experience involving agile software development practices,
+  analysis, design, implementation and testing Ruby applications. I can implement anything you wish. All I need is time :)
+
+  To see my Upwork profile go to: https://goo.gl/O5KDGe"
+skills:
+  - Ruby on Rails
+  - Sinatra
+  - HTML5
+  - css3
+  - ERB
+  - HAML
+  - SLIM
+  - SASS\SCSS
+  - Unicorn
+  - Puma
+  - Thin
+  - Rack
+  - RSpec
+  - FactoryGirl
+  - Cucumber
+  - Vagrant
+  - Docker
+  - Chef
+education:
+  university_name: Belarusian State University
+  graduation: Bachelor
+  what_i_learned: I learned programming, math, data analysis, radiophysics and etc.
+
+work:
+  - job_position: Junior RoR developer at realt.biz
+    date_start: July 2013
+    date_end: September 2013
+    projects:
+      - project_title: realt.biz
+        description: House search site for Belarus users.
+
+  - job_position: Junior RoR developer at NitroAgent.com
+    date_start: October 2013
+    date_end: June 2014
+    projects:
+      - project_title: nitroagent.com
+        description: Simple real estate web application for closed group of people.
+        skills_used:
+        - Rails 3
+        - AngularJS
+        - Bundler
+        - CoffeeScript
+        - SASS
+        - Unicorn
+        - Nginx
+
+  - job_position: Frontend & Backend developer chorusaccess.org
+    date_start: July 2014
+    date_end: Jyly 2014
+    projects:
+      - project_title: chorusaccess.org
+        description: CHORUS leverages existing infrastructure to enable sustainable, cost-effective, and transparent public access to content reporting on funded research. By integrating services and open APIs, CHORUS optimizes funder identification, content discovery and long-term accessibility, compliance monitoring, and dashboard reporting.
+        skills_used:
+        - JQuery
+        - Sinatra
+
+  - job_position: Full stack Ruby developer at Clothes Network Ltd.
+    date_start: August 2014
+    date_end: July 2015
+
+    projects:
+      - project_title: Scrooge, Web scraper
+        desription: The Scooge project, is a webscraper project to collect everything and all knowlegable about locations of storefronts internationally. Normal address information is turned into longitute and latitude using reverse geocoding providers.
+        skills_used:
+        - Bower
+        - RVM
+        - DataMapper ORM
+        - Redis Key-Value Database
+        - Vagrant
+        - Docker
+        - Chef
+
+      - project_title: Orpiva Blog
+        description: Blog for Opiva project
+
+        skills_used:
+        - RVM
+        - Bundler
+        - Jekyll
+
+      - project_title: Orpiva, Fashion Search Engine
+        description: Need it but don’t know where to buy it? Using just a url or a photo snapped on your phone, Orpiva sifts through products from over 15,000 brands and retailers to find a perfect match or similar current stock.
+
+        skills_used:
+        - Sinatra
+        - Bower
+        - RVM
+        - Bundler
+        - Datamapper ORM
+        - Slim
+        - CoffeeScript
+        - SASS
+        - RequireJS AMD
+        - Redis
+        - Unicorn
+        - Vagrant
+        - Docker
+        - Chef
+
+  - job_position: Lead RoR developer at NitroAgent.com
+    date_start: July 2015
+    date_end: January 2016
+    projects:
+      - project_title: nitroagent.com
+        skills_used:
+        - Rails 4
+        - Bower
+        - RVM
+        - AngularJS
+        - Bundler
+        - Slim
+        - CoffeeScript
+        - SASS
+        - Redis
+        - Puma
+        - Vagrant
+
+  - job_position: Mid RoR developer at SumatoSoft
+    date_start: January 2016
+    date_end: February 2017
+    projects:
+      - project_title: LPS - Plumbing App
+        skills_used:
+        - Bower
+        - Nodejs
+        - Puma
+        - Vagrant
+        - WickedPDF
+      - project_title: XXX Website
+      - project_title: SellBig - Online Store
+
+  - job_position: Mid developer at EPAM
+    date_start: March 2017
+    date_end: July 2018
+    projects:
+    - project_title: SAP People
+      project_url: people.sap.com
+      description: It is internal SAP social network with questions and answers like Stackoverflow
+      skills_used:
+      - Slim
+      - CoffeeScript
+      - SASS
+      - Redis
+      - Mongodb
+      - Rails 4
+      - Rails 5
+
+  - job_position: Senior RoR Developer at Karmasoft
+    date_start: May 2018
+    date_end: Now
+    projects:
+    - project_title: Karmasoft Joga Studio
+      project_url: karmasoftonline.com
+      skills_used:
+      - Rails 3
+      - Rails 5
+      - PJAX
+      - SCSS
+      - Mysql
+      - Redis
