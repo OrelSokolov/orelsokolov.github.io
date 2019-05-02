@@ -1,0 +1,25 @@
+.contacts a {
+    text-transform: none;
+    color: #232323;
+}
+
+.contacts .fa-skype {
+    color: #00a7e4;
+}
+
+.contacts .fa-at {
+}
+
+.contacts .fa-telegram {
+    color: #0097d0;
+}
+
+.contacts .fa-github {
+
+}
+
+@media print {
+    .contacts .box {
+        height: 200px;
+    }
+}

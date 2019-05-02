@@ -1,440 +1,593 @@
-
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>Oleg Orlov</title>
+  <meta charset="utf-8">
+<meta content="{{ page.meta }}" name="keywords">
 
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="Oleg Orlov CV"/>
-<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link type="text/css" rel="stylesheet" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+
+<link rel="shortcut icon" type="image/png" href="favicon.png">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
 </head>
-<body id="top">
-<div id="cv" class="instaFade">
-	<div class="mainDetails">
-		<div id="headshot" class="quickFade">
-			<img src="headshot.jpg" alt="Oleg Orlov" />
-		</div>
+<body>
+<section class="main">
+    <div class="sidebar-container">
+      <div class="sidebar">
+    <div class="logo">{Orlov}</div>
+    <div class="logo-desc">Senior Web Developer</div>
 
-		<div id="name">
-			<h1 class="quickFade delayTwo">Oleg Orlov</h1>
-			<h2 class="quickFade delayThree">Ruby stack developer</h2>
-		</div>
+    <a href="#what-i-am" class="v_menu">
+        <span class="menu-default-item">
+            <span class="keyword">who</span> <span class="symbol">:I</span><span class="comma">,</span> <span class="method">am?</span>
+        </span>
+        <span class="menu-active-item">WHO I AM</span>
+    </a>
+    <a href="#what-i-can" class="v_menu">
+        <span class="menu-default-item">
+            <span class="keyword">what</span> <span class="symbol">:I</span><span class="comma">,</span> -> { can }
+        </span>
+        <span class="menu-active-item">WHAT I CAN</span>
+    </a>
+    <a href="#what-i-created" class="v_menu">
+        <span class="menu-default-item">
+            <span class="keyword">what</span> <span class="symbol">:I</span><span class="comma">,</span> <span class="method">created!</span>
+        </span>
+        <span class="menu-active-item">WHAT I CREATED</span>
+    </a>
+    <a href="#what-i-learned" class="v_menu">
+        <span class="menu-default-item">
+            <span class="keyword">what</span> <span class="symbol">:I</span><span class="comma">,</span> [ <span class="string">'learned'</span> ]
+        </span>
+        <span class="menu-active-item">WHAT I LEARNED</span>
+    </a>
+    <a href="#contacts" class="v_menu">
+        <span class="menu-default-item">
+            <span class="property">@contacts</span>
+        </span>
+        <span class="menu-active-item">CONTACTS</span>
+    </a>
 
-		<div id="contactDetails" class="quickFade delayFour">
-			<ul>
-				<li>email: <a href="mailto:orelcokolov@gmail.com" target="_blank">orelcokolov@gmail.com</a></li>
-				<li>website: <a href="http://">orelsokolov.github.io</a></li>
-				<li>skype: orelsokolov</li>
-				<li>phone: +375 25 917 79 30</li>
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div>
-
-	<div id="mainArea" class="quickFade delayFive">
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Introduction</h1>
-				</div>
-
-				<div class="sectionContent">
-					<p>Hi, I am a senior Ruby on Rails developer with over 5 years' experience involving agile software development practices,
-analysis, design, implementation and testing Ruby applications. Very motivated, self-organized.
-</p>
-
-					<p>
-						To see my Upwork profile go to:
-						<a href="https://goo.gl/O5KDGe">https://goo.gl/O5KDGe</a>
-					</p>
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Skills</h1>
-			</div>
-
-			<div class="sectionContent">
-				<ul class="keySkills">
-					
-						<li>Ruby on Rails</li>
-					
-						<li>Sinatra</li>
-					
-						<li>HTML5</li>
-					
-						<li>css3</li>
-					
-						<li>ERB</li>
-					
-						<li>HAML</li>
-					
-						<li>SLIM</li>
-					
-						<li>SASS\SCSS</li>
-					
-						<li>Unicorn</li>
-					
-						<li>Puma</li>
-					
-						<li>Thin</li>
-					
-						<li>Rack</li>
-					
-						<li>RSpec</li>
-					
-						<li>FactoryGirl</li>
-					
-						<li>Cucumber</li>
-					
-						<li>Vagrant</li>
-					
-						<li>Docker</li>
-					
-						<li>Chef</li>
-					
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</section>
-
-
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Work Experience</h1>
-			</div>
-
-			<div class="sectionContent">
-				
-					<article>
-						<h2>Junior RoR developer at realt.biz</h2>
-						<p class="subDetails">July 2013 - September 2013</p>
-            	
-
-								<h3 class="h3">realt.biz</h3>
-								<p>House search site for Belarus users.</p>
-								
-							
-
-						<hr>
-					</article>
-				
-					<article>
-						<h2>Junior RoR developer at NitroAgent.com</h2>
-						<p class="subDetails">October 2013 - June 2014</p>
-            	
-
-								<h3 class="h3">nitroagent.com</h3>
-								<p>Simple real estate web application for closed group of people.</p>
-								
-									<h3 class="i">Used technologies:</h3>
-									<ul class="list-used-skills keySkills">
-										
-											<li>Rails 3</li>
-										
-											<li>AngularJS</li>
-										
-											<li>Bundler</li>
-										
-											<li>CoffeeScript</li>
-										
-											<li>SASS</li>
-										
-											<li>Unicorn</li>
-										
-											<li>Nginx</li>
-										
-									</ul>
-								
-							
-
-						<hr>
-					</article>
-				
-					<article>
-						<h2>Frontend & Backend developer chorusaccess.org</h2>
-						<p class="subDetails">July 2014 - Jyly 2014</p>
-            	
-
-								<h3 class="h3">chorusaccess.org</h3>
-								<p>CHORUS leverages existing infrastructure to enable sustainable, cost-effective, and transparent public access to content reporting on funded research. By integrating services and open APIs, CHORUS optimizes funder identification, content discovery and long-term accessibility, compliance monitoring, and dashboard reporting.</p>
-								
-									<h3 class="i">Used technologies:</h3>
-									<ul class="list-used-skills keySkills">
-										
-											<li>JQuery</li>
-										
-											<li>Sinatra</li>
-										
-									</ul>
-								
-							
-
-						<hr>
-					</article>
-				
-					<article>
-						<h2>Full stack Ruby developer at Clothes Network Ltd.</h2>
-						<p class="subDetails">August 2014 - July 2015</p>
-            	
-
-								<h3 class="h3">Scrooge, Web scraper</h3>
-								<p></p>
-								
-									<h3 class="i">Used technologies:</h3>
-									<ul class="list-used-skills keySkills">
-										
-											<li>Bower</li>
-										
-											<li>RVM</li>
-										
-											<li>DataMapper ORM</li>
-										
-											<li>Redis Key-Value Database</li>
-										
-											<li>Vagrant</li>
-										
-											<li>Docker</li>
-										
-											<li>Chef</li>
-										
-									</ul>
-								
-							
-
-								<h3 class="h3">Orpiva Blog</h3>
-								<p>Blog for Opiva project</p>
-								
-									<h3 class="i">Used technologies:</h3>
-									<ul class="list-used-skills keySkills">
-										
-											<li>RVM</li>
-										
-											<li>Bundler</li>
-										
-											<li>Jekyll</li>
-										
-									</ul>
-								
-							
-
-								<h3 class="h3">Orpiva, Fashion Search Engine</h3>
-								<p>Need it but don’t know where to buy it? Using just a url or a photo snapped on your phone, Orpiva sifts through products from over 15,000 brands and retailers to find a perfect match or similar current stock.</p>
-								
-									<h3 class="i">Used technologies:</h3>
-									<ul class="list-used-skills keySkills">
-										
-											<li>Sinatra</li>
-										
-											<li>Bower</li>
-										
-											<li>RVM</li>
-										
-											<li>Bundler</li>
-										
-											<li>Datamapper ORM</li>
-										
-											<li>Slim</li>
-										
-											<li>CoffeeScript</li>
-										
-											<li>SASS</li>
-										
-											<li>RequireJS AMD</li>
-										
-											<li>Redis</li>
-										
-											<li>Unicorn</li>
-										
-											<li>Vagrant</li>
-										
-											<li>Docker</li>
-										
-											<li>Chef</li>
-										
-									</ul>
-								
-							
-
-						<hr>
-					</article>
-				
-					<article>
-						<h2>Lead RoR developer at NitroAgent.com</h2>
-						<p class="subDetails">July 2015 - January 2016</p>
-            	
-
-								<h3 class="h3">nitroagent.com</h3>
-								<p></p>
-								
-									<h3 class="i">Used technologies:</h3>
-									<ul class="list-used-skills keySkills">
-										
-											<li>Rails 4</li>
-										
-											<li>Bower</li>
-										
-											<li>RVM</li>
-										
-											<li>AngularJS</li>
-										
-											<li>Bundler</li>
-										
-											<li>Slim</li>
-										
-											<li>CoffeeScript</li>
-										
-											<li>SASS</li>
-										
-											<li>Redis</li>
-										
-											<li>Puma</li>
-										
-											<li>Vagrant</li>
-										
-									</ul>
-								
-							
-
-						<hr>
-					</article>
-				
-					<article>
-						<h2>Mid RoR developer at SumatoSoft</h2>
-						<p class="subDetails">January 2016 - February 2017</p>
-            	
-
-								<h3 class="h3">LPS - Plumbing App</h3>
-								<p></p>
-								
-									<h3 class="i">Used technologies:</h3>
-									<ul class="list-used-skills keySkills">
-										
-											<li>Bower</li>
-										
-											<li>Nodejs</li>
-										
-											<li>Puma</li>
-										
-											<li>Vagrant</li>
-										
-											<li>WickedPDF</li>
-										
-									</ul>
-								
-							
-
-								<h3 class="h3">XXX Website</h3>
-								<p></p>
-								
-							
-
-								<h3 class="h3">SellBig - Online Store</h3>
-								<p></p>
-								
-							
-
-						<hr>
-					</article>
-				
-					<article>
-						<h2>Mid developer at EPAM</h2>
-						<p class="subDetails">March 2017 - July 2018</p>
-            	
-
-								<h3 class="h3">SAP People</h3>
-								<p>It is internal SAP social network with questions and answers like Stackoverflow</p>
-								
-									<h3 class="i">Used technologies:</h3>
-									<ul class="list-used-skills keySkills">
-										
-											<li>Slim</li>
-										
-											<li>CoffeeScript</li>
-										
-											<li>SASS</li>
-										
-											<li>Redis</li>
-										
-											<li>Mongodb</li>
-										
-											<li>Rails 4</li>
-										
-											<li>Rails 5</li>
-										
-									</ul>
-								
-							
-
-						<hr>
-					</article>
-				
-					<article>
-						<h2>Senior RoR Developer at Karmasoft</h2>
-						<p class="subDetails">May 2018 - Now</p>
-            	
-
-								<h3 class="h3">Karmasoft Joga Studio</h3>
-								<p></p>
-								
-									<h3 class="i">Used technologies:</h3>
-									<ul class="list-used-skills keySkills">
-										
-											<li>Rails 3</li>
-										
-											<li>Rails 5</li>
-										
-											<li>PJAX</li>
-										
-											<li>SCSS</li>
-										
-											<li>Mysql</li>
-										
-											<li>Redis</li>
-										
-									</ul>
-								
-							
-
-						<hr>
-					</article>
-				
-
-			</div>
-			<div class="clear"></div>
-		</section>
-
-
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Education</h1>
-			</div>
-
-			<div class="sectionContent">
-				<article>
-					<h2>Belarusian State University</h2>
-					<p class="subDetails">Bachelor</p>
-					<p>I learned programming, math, data analysis, radiophysics and etc.</p>
-				</article>
-
-			</div>
-			<div class="clear"></div>
-		</section>
-
-	</div>
 </div>
+
+<script>
+    var update_menu = function(){
+        console.log("Update");
+        // Route highlight
+        $('.v_menu').each(function(){
+            if($(this).get(0).href == window.location){
+                $(this).addClass('active');
+                $(this).find('.menu-active-item').show();
+                $(this).find('.menu-default-item').hide();
+            } else {
+                $(this).removeClass('active');
+                $(this).find('.menu-active-item').hide();
+                $(this).find('.menu-default-item').show();
+            }
+        });
+
+        $('.sidebar-section-title').on('click', function(){
+            $(this).next().toggle();
+        })
+    };
+    $(document).ready(update_menu);
+    $(window).on('hashchange', update_menu);
+
+</script>
+
+    </div>
+    <div class="content-container">
+      <div class="wrapper">
+
+        <section id="what-i-am" class="info">
+    <div class="info-item">
+    </div>
+    <div class="info-item">
+        <h2 class="hello">self.to_s</h2>
+        <p>
+            My name is Oleg Orlov.
+            I am a talented senior Ruby on Rails developer with over 5 years of experience involving agile software development practices, analysis, design, implementation and testing Ruby applications.
+            I also love Go and Python, and have frontend skills too.
+        </p>
+        <h2 class="hello"></h2>
+        <div class="text-center">
+            <img class="lang-logo" src="gopher.png" alt="">
+            <img class="ruby-logo lang-logo" src="ruby.png" alt="">
+            <img class="lang-logo" src="python.png" alt="">
+        </div>
+    </div>
+</section>
+
+        <h1 id="what-i-can">What I can</h1>
+<section class="boxes">
+    <div class="box">
+        <i class="fas fa-people-carry fa-4x"></i>
+        <h3>High Load Apps</h3>
+        <p>
+            I have experience of building High Load apps with great teams.
+        </p>
+        <p>I helped to build high load apps, such as People Sap, Van Lanshot</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-boxes fa-4x"></i>
+        <h3>Micro services</h3>
+        <p> I am ready to build complex apps with microservices. </p>
+        <p>For last two years I worked with micro services: Orpiva, People SAP, internal EPAM Projects, Van Lanshot</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-wrench fa-4x"></i>
+        <h3>Optimizations</h3>
+        <p>I love to make apps more efficient.</p>
+        <p>I worked with many apps which required a lot of search requests and calculations, for example:
+            LPS, Karmasoft, Van Lanshot
+        </p>
+    </div>
+    <div class="box">
+        <i class="fas fa-code-branch fa-4x"></i>
+        <h3>Clean & Safe Code</h3>
+        <p>I always try to keep my code clean and good. I use linters and security checkers if possible.</p>
+        <p>My favorite helpers for Ruby are Rubocop, RBP, Brakeman</p>
+    </div>
+    <div class="box">
+        <i class="fab fa-internet-explorer fa-4x"></i>
+        <h3>Remote Work</h3>
+        <p> 30% of my work experience were remote projects.</p>
+        <p>I worked with client without company with: Nitroagent, Karmasoft, Chorus</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-headset fa-4x"></i>
+        <h3>Direct communication</h3>
+        <p>I like to talk directly with client from amy country.</p>
+        <p>In my work I always contact with client via voice and messages. It does not matter freelance or company.</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-business-time fa-4x"></i>
+        <h3>Business Processes</h3>
+        <p>I prefer to use already defined methodologies and do not reinvent wheels.</p>
+        <p>
+            I try to avoid jobs where <i>"task should be done yesterday"</i> and etc.
+            Good planning is the half of success. I like success, not fails.
+        </p>
+    </div>
+    <div class="box">
+        <i class="fas fa-lightbulb fa-4x"></i>
+        <h3>Awesome Ideas</h3>
+        <p>I always try to suggest the best solutions and make projects better if possible</p>
+        <p>Almost all projects I worked on smelt at the beginning, there were some code and architecture issues.
+            I always tried to find solution for each case and resolve problem.</p>
+    </div>
+</section>
+
+        <h1>What i created</h1>
+<section class="projects-wrapper">
+  
+    <div>
+      <div>
+        <h2 class="date">May 2018 - Now</h2>
+        <i>Senior RoR Developer at Karmasoft</i>
+      </div>
+      <div class="boxes projects">
+        
+          <div class="box project">
+            <div>
+              <h3 class="h3">Karmasoft Joga Studio</h3>
+              <img src="" alt="">
+            </div>
+            <div>
+              <p></p>
+              
+                <b class="i">Used technologies:</b>
+                <ul class="list-used-skills">
+                  
+                    <li>Rails 3</li>
+                  
+                    <li>Rails 5</li>
+                  
+                    <li>PJAX</li>
+                  
+                    <li>SCSS</li>
+                  
+                    <li>Mysql</li>
+                  
+                    <li>Redis</li>
+                  
+                </ul>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div>
+      <div>
+        <h2 class="date">March 2017 - July 2018</h2>
+        <i>Mid developer at EPAM</i>
+      </div>
+      <div class="boxes projects">
+        
+          <div class="box project">
+            <div>
+              <h3 class="h3">SAP People</h3>
+              <img src="" alt="">
+            </div>
+            <div>
+              <p>It is internal SAP social network with questions and answers like Stackoverflow</p>
+              
+                <b class="i">Used technologies:</b>
+                <ul class="list-used-skills">
+                  
+                    <li>Slim</li>
+                  
+                    <li>CoffeeScript</li>
+                  
+                    <li>SASS</li>
+                  
+                    <li>Redis</li>
+                  
+                    <li>Mongodb</li>
+                  
+                    <li>Rails 4</li>
+                  
+                    <li>Rails 5</li>
+                  
+                </ul>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div>
+      <div>
+        <h2 class="date">January 2016 - February 2017</h2>
+        <i>Mid RoR developer at SumatoSoft</i>
+      </div>
+      <div class="boxes projects">
+        
+          <div class="box project">
+            <div>
+              <h3 class="h3">LPS - Plumbing App</h3>
+              <img src="" alt="">
+            </div>
+            <div>
+              <p></p>
+              
+                <b class="i">Used technologies:</b>
+                <ul class="list-used-skills">
+                  
+                    <li>Bower</li>
+                  
+                    <li>Nodejs</li>
+                  
+                    <li>Puma</li>
+                  
+                    <li>Vagrant</li>
+                  
+                    <li>WickedPDF</li>
+                  
+                </ul>
+              
+            </div>
+          </div>
+        
+          <div class="box project">
+            <div>
+              <h3 class="h3">XXX Website</h3>
+              <img src="" alt="">
+            </div>
+            <div>
+              <p></p>
+              
+            </div>
+          </div>
+        
+          <div class="box project">
+            <div>
+              <h3 class="h3">SellBig - Online Store</h3>
+              <img src="" alt="">
+            </div>
+            <div>
+              <p></p>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div>
+      <div>
+        <h2 class="date">July 2015 - January 2016</h2>
+        <i>Lead RoR developer at NitroAgent.com</i>
+      </div>
+      <div class="boxes projects">
+        
+          <div class="box project">
+            <div>
+              <h3 class="h3">nitroagent.com</h3>
+              <img src="images/nitroagent.com.jpg" alt="">
+            </div>
+            <div>
+              <p></p>
+              
+                <b class="i">Used technologies:</b>
+                <ul class="list-used-skills">
+                  
+                    <li>Rails 4</li>
+                  
+                    <li>Bower</li>
+                  
+                    <li>RVM</li>
+                  
+                    <li>AngularJS</li>
+                  
+                    <li>Bundler</li>
+                  
+                    <li>Slim</li>
+                  
+                    <li>CoffeeScript</li>
+                  
+                    <li>SASS</li>
+                  
+                    <li>Redis</li>
+                  
+                    <li>Puma</li>
+                  
+                    <li>Vagrant</li>
+                  
+                </ul>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div>
+      <div>
+        <h2 class="date">August 2014 - July 2015</h2>
+        <i>Full stack Ruby developer at Clothes Network Ltd.</i>
+      </div>
+      <div class="boxes projects">
+        
+          <div class="box project">
+            <div>
+              <h3 class="h3">Scrooge, Web scraper</h3>
+              <img src="" alt="">
+            </div>
+            <div>
+              <p></p>
+              
+                <b class="i">Used technologies:</b>
+                <ul class="list-used-skills">
+                  
+                    <li>Bower</li>
+                  
+                    <li>RVM</li>
+                  
+                    <li>DataMapper ORM</li>
+                  
+                    <li>Redis Key-Value Database</li>
+                  
+                    <li>Vagrant</li>
+                  
+                    <li>Docker</li>
+                  
+                    <li>Chef</li>
+                  
+                </ul>
+              
+            </div>
+          </div>
+        
+          <div class="box project">
+            <div>
+              <h3 class="h3">Orpiva Blog</h3>
+              <img src="" alt="">
+            </div>
+            <div>
+              <p>Blog for Opiva project</p>
+              
+                <b class="i">Used technologies:</b>
+                <ul class="list-used-skills">
+                  
+                    <li>RVM</li>
+                  
+                    <li>Bundler</li>
+                  
+                    <li>Jekyll</li>
+                  
+                </ul>
+              
+            </div>
+          </div>
+        
+          <div class="box project">
+            <div>
+              <h3 class="h3">Orpiva, Fashion Search Engine</h3>
+              <img src="" alt="">
+            </div>
+            <div>
+              <p>Need it but don’t know where to buy it? Using just a url or a photo snapped on your phone, Orpiva sifts through products from over 15,000 brands and retailers to find a perfect match or similar current stock.</p>
+              
+                <b class="i">Used technologies:</b>
+                <ul class="list-used-skills">
+                  
+                    <li>Sinatra</li>
+                  
+                    <li>Bower</li>
+                  
+                    <li>RVM</li>
+                  
+                    <li>Bundler</li>
+                  
+                    <li>Datamapper ORM</li>
+                  
+                    <li>Slim</li>
+                  
+                    <li>CoffeeScript</li>
+                  
+                    <li>SASS</li>
+                  
+                    <li>RequireJS AMD</li>
+                  
+                    <li>Redis</li>
+                  
+                    <li>Unicorn</li>
+                  
+                    <li>Vagrant</li>
+                  
+                    <li>Docker</li>
+                  
+                    <li>Chef</li>
+                  
+                </ul>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div>
+      <div>
+        <h2 class="date">July 2014 - Jyly 2014</h2>
+        <i>Frontend & Backend developer chorusaccess.org</i>
+      </div>
+      <div class="boxes projects">
+        
+          <div class="box project">
+            <div>
+              <h3 class="h3">chorusaccess.org</h3>
+              <img src="" alt="">
+            </div>
+            <div>
+              <p>CHORUS leverages existing infrastructure to enable sustainable, cost-effective, and transparent public access to content reporting on funded research. By integrating services and open APIs, CHORUS optimizes funder identification, content discovery and long-term accessibility, compliance monitoring, and dashboard reporting.</p>
+              
+                <b class="i">Used technologies:</b>
+                <ul class="list-used-skills">
+                  
+                    <li>JQuery</li>
+                  
+                    <li>Sinatra</li>
+                  
+                </ul>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div>
+      <div>
+        <h2 class="date">October 2013 - June 2014</h2>
+        <i>Junior RoR developer at NitroAgent.com</i>
+      </div>
+      <div class="boxes projects">
+        
+          <div class="box project">
+            <div>
+              <h3 class="h3">nitroagent.com</h3>
+              <img src="images/nitroagent.com" alt="">
+            </div>
+            <div>
+              <p>Simple real estate web application for closed group of people.</p>
+              
+                <b class="i">Used technologies:</b>
+                <ul class="list-used-skills">
+                  
+                    <li>Rails 3</li>
+                  
+                    <li>AngularJS</li>
+                  
+                    <li>Bundler</li>
+                  
+                    <li>CoffeeScript</li>
+                  
+                    <li>SASS</li>
+                  
+                    <li>Unicorn</li>
+                  
+                    <li>Nginx</li>
+                  
+                </ul>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+    <div>
+      <div>
+        <h2 class="date">July 2013 - September 2013</h2>
+        <i>Junior RoR developer at realt.biz</i>
+      </div>
+      <div class="boxes projects">
+        
+          <div class="box project">
+            <div>
+              <h3 class="h3">realt.biz</h3>
+              <img src="" alt="">
+            </div>
+            <div>
+              <p>House search site for Belarus users.</p>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  
+</section>
+
+        <h1 id="what-i-learned">What I learned</h1>
+<section class="boxes">
+    <div class="box">
+        <i class="fas fa-people-carry fa-4x"></i>
+        <h3>High Load Apps</h3>
+        <p>
+            I have experience of building High Load apps with great teams.
+        </p>
+        <p>I helped to build high load apps, such as People Sap, Van Lanshot</p>
+    </div>
+</section>
+
+        <h1 id="contacts">How to find me</h1>
+<section class="boxes contacts">
+    <a class="box skype" href="skype:orelcokolov">
+        <i class="fab fa-skype fa-4x"></i>
+        <h3>orelcokolov</h3>
+    </a>
+
+    <a class="box gmail" href="mailto:orelcokolov@gmail.com">
+        <i class="fas fa-at fa-4x"></i>
+        <h3>orelcokolov@gmail.com</h3>
+    </a>
+
+    <a class="box github" href="http://github.com/orelsokolov">
+        <i class="fab fa-github fa-4x"></i>
+        <h3>@orelsokolov</h3>
+    </a>
+
+    <a class="box telegram" href="https://telegram.me/orelsokolov">
+        <i class="fab fa-telegram fa-4x"></i>
+        <h3>@orelsokolov</h3>
+    </a>
+</section>
+
+
+      </div>
+    </div>
+</section>
 <!-- Yandex.Metrika counter --><script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter34698145 = new Ya.Metrika({ id:34698145, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/34698145" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
 </body>
 </html>

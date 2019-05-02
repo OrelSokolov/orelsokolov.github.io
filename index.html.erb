@@ -1,131 +1,25 @@
-<% cv = YAML.load_file('cv.yml') %>
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title><%=	cv.contacts.name %></title>
-
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="Oleg Orlov CV"/>
-<meta charset="UTF-8">
-
-<link type="text/css" rel="stylesheet" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+  <%= partial "head" %>
 </head>
-<body id="top">
-<div id="cv" class="instaFade">
-	<div class="mainDetails">
-		<div id="headshot" class="quickFade">
-			<img src="headshot.jpg" alt="<%= cv.contacts.name %>" />
-		</div>
+<body>
+<section class="main">
+    <div class="sidebar-container">
+      <%= partial "sidebar" %>
+    </div>
+    <div class="content-container">
+      <div class="wrapper">
 
-		<div id="name">
-			<h1 class="quickFade delayTwo"><%= cv.contacts.name %></h1>
-			<h2 class="quickFade delayThree"><%= cv.contacts.overview %></h2>
-		</div>
+        <%= partial "me" %>
+        <%= partial "general_skills" %>
+        <%= partial "projects" %>
+        <%= partial "learned" %>
+        <%= partial "contacts" %>
 
-		<div id="contactDetails" class="quickFade delayFour">
-			<ul>
-				<li>email: <a href="mailto:<%= cv.contacts.email %>" target="_blank"><%= cv.contacts.email %></a></li>
-				<li>website: <a href="http://<% cv.contacts.website %>"><%= cv.contacts.website %></a></li>
-				<li>skype: <%= cv.contacts.skype %></li>
-				<li>phone: <%= cv.contacts.phone %></li>
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div>
-
-	<div id="mainArea" class="quickFade delayFive">
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Introduction</h1>
-				</div>
-
-				<div class="sectionContent">
-					<p><%= cv.description %></p>
-
-					<p>
-						To see my Upwork profile go to:
-						<a href="https://goo.gl/O5KDGe">https://goo.gl/O5KDGe</a>
-					</p>
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Skills</h1>
-			</div>
-
-			<div class="sectionContent">
-				<ul class="keySkills">
-					<% cv.skills.each do |skill| %>
-						<li><%= skill %></li>
-					<% end %>
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</section>
-
-
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Work Experience</h1>
-			</div>
-
-			<div class="sectionContent">
-				<% cv.work.each do |job| %>
-					<article>
-						<h2><%= job.job_position %></h2>
-						<p class="subDetails"><%= job.date_start %> - <%= job.date_end %></p>
-            	<% job.projects.each do |project| %>
-
-								<h3 class="h3"><%= project.project_title %></h3>
-								<p><%= project.description %></p>
-								<% if project.skills_used %>
-									<h3 class="i">Used technologies:</h3>
-									<ul class="list-used-skills keySkills">
-										<% project.skills_used.each do |skill| %>
-											<li><%= skill %></li>
-										<% end %>
-									</ul>
-								<% end %>
-							<% end %>
-
-						<hr>
-					</article>
-				<% end %>
-
-			</div>
-			<div class="clear"></div>
-		</section>
-
-
-
-		<section>
-			<div class="sectionTitle">
-				<h1>Education</h1>
-			</div>
-
-			<div class="sectionContent">
-				<article>
-					<h2><%= cv.education.university_name %></h2>
-					<p class="subDetails"><%= cv.education.graduation %></p>
-					<p><%= cv.education.what_i_learned %></p>
-				</article>
-
-			</div>
-			<div class="clear"></div>
-		</section>
-
-	</div>
-</div>
+      </div>
+    </div>
+</section>
 <!-- Yandex.Metrika counter --><script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter34698145 = new Ya.Metrika({ id:34698145, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/34698145" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
 </body>
 </html>

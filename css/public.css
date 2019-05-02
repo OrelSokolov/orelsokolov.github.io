@@ -1,0 +1,22 @@
+ul.publics li {
+    font-family: Arial;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+ul.publics li span {
+    display: block;
+    color: gray;
+    font-family: "Open Sans Condensed";
+    font-size: 18px;
+}
+
+ul.publics li a {
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+    display: block;
+    color: black;
+    font-weight: normal;
+}
+
+

@@ -1,0 +1,32 @@
+<h1>What i created</h1>
+<section class="projects-wrapper">
+  <% @cv.work.reverse.each do |job| %>
+    <div>
+      <div>
+        <h2 class="date"><%= job.date_start %> - <%= job.date_end %></h2>
+        <i><%= job.job_position %></i>
+      </div>
+      <div class="boxes projects">
+        <% job.projects.each do |project| %>
+          <div class="box project">
+            <div>
+              <h3 class="h3"><%= project.project_title %></h3>
+              <img src="<%= project.image %>" alt="">
+            </div>
+            <div>
+              <p><%= project.description %></p>
+              <% if project.skills_used %>
+                <b class="i">Used technologies:</b>
+                <ul class="list-used-skills">
+                  <% project.skills_used.each do |skill| %>
+                    <li><%= skill %></li>
+                  <% end %>
+                </ul>
+              <% end %>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</section>

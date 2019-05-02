@@ -1,0 +1,65 @@
+@media print {
+    .letter {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .book-description {
+        box-shadow: none;
+        border: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .sidebar-container {
+        display: none;
+    }
+
+    .content-container {
+        width: 100%;
+        display: block;
+    }
+
+    .content-container .wrapper {
+    }
+
+    section.main {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .book-description-container {
+        max-width: 100% !important;
+    }
+
+    .download-area {
+        display: none;
+    }
+
+    .boxes {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 200px 200px;
+    }
+
+    .projects {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+    }
+
+    .boxes:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    html,body{
+        background: #efefef;
+        height: 100%;
+        width: 210mm;
+    }
+}
+

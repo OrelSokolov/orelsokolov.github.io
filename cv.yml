@@ -27,6 +27,7 @@ skills:
   - Vagrant
   - Docker
   - Chef
+
 education:
   university_name: Belarusian State University
   graduation: Bachelor
@@ -45,6 +46,7 @@ work:
     date_end: June 2014
     projects:
       - project_title: nitroagent.com
+        image: images/nitroagent.com
         description: Simple real estate web application for closed group of people.
         skills_used:
         - Rails 3
@@ -113,6 +115,7 @@ work:
     date_end: January 2016
     projects:
       - project_title: nitroagent.com
+        image: images/nitroagent.com.jpg
         skills_used:
         - Rails 4
         - Bower
