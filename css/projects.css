@@ -14,6 +14,10 @@
 }
 
 .project div * {
+    text-align: left !important;
+}
+
+.project * {
     text-align: left;
 }
 
