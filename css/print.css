@@ -44,10 +44,25 @@
         grid-template-columns: 200px 200px;
     }
 
+    .projects-wrapper {
+        display: block !important;
+    }
+
     .projects {
         display: grid;
-        grid-gap: 20px;
-        grid-template-columns: auto;
+        grid-template-columns: 100% !important;
+    }
+
+    .project {
+        width: 100%;
+        page-break-inside: avoid;
+        page-break-after: always;
+    }
+
+    .box {
+        height: auto;
+        page-break-inside: avoid;
+        page-break-after: always;
     }
 
     .boxes:after {

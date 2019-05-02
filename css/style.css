@@ -4,6 +4,7 @@
 @import url('common/variables.css');
 @import url("landing/what-i-am.css");
 @import url("landing/contacts.css");
+@import url("projects.css");
 @import url('print.css');
 
 
@@ -313,36 +314,3 @@ img {
     padding: 20px 50px;
 }
 
-.projects {
-    grid-template-columns: auto;
-}
-
-.project {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 50% auto;
-    text-align: left;
-}
-
-.project div:first-child {
-    text-align: center;
-}
-
-.project div * {
-    text-align: left;
-}
-
-.project div h3 {
-    margin: 0;
-}
-
-.projects-wrapper {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: auto auto;
-}
-
-
-.project img {
-    border: solid gray thin;
-}

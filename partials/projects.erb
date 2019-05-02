@@ -4,9 +4,9 @@
     <div>
       <div>
         <h2 class="date"><%= job.date_start %> - <%= job.date_end %></h2>
-        <i><%= job.job_position %></i>
+        <div class="job-position"><%= job.job_position %></div>
       </div>
-      <div class="boxes projects">
+      <div class="projects">
         <% job.projects.each do |project| %>
           <div class="box project">
             <div>
