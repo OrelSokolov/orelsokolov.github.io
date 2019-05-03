@@ -76,28 +76,35 @@ work:
       - project_title: Scrooge, Web scraper
         image: images/scrooge.png
         desription: The Scooge project, is a webscraper project to collect everything and all knowlegable about locations of storefronts internationally. Normal address information is turned into longitute and latitude using reverse geocoding providers.
+        features:
+          - Use Tor proxies to avoid blocking
+          - Parallel jobs
+          - Configuration with YAML
         skills_used:
-        - Bower
-        - RVM
-        - DataMapper ORM
-        - Redis Key-Value Database
-        - Vagrant
-        - Docker
-        - Chef
+          - Apache Thrift
+          - Bower
+          - RVM
+          - DataMapper ORM
+          - Redis Key-Value Database
+          - Vagrant
+          - Docker
+          - Chef
 
       - project_title: Orpiva Blog
         description: Blog for Opiva project
         image: images/blog.orpiva.com.png
-
+        features:
+          - Blog for Orpiva
+          - Markdown for writing blog posts
+          - Images are scaled automatically with ImageMagick
         skills_used:
-        - RVM
-        - Bundler
-        - Jekyll
+          - RVM
+          - Bundler
+          - Jekyll
 
       - project_title: Orpiva, Fashion Search Engine
         description: Need it but don’t know where to buy it? Using just a url or a photo snapped on your phone, Orpiva sifts through products from over 15,000 brands and retailers to find a perfect match or similar current stock.
         image: images/orpiva.com.jpg
-
         skills_used:
         - Sinatra
         - Bower
@@ -166,13 +173,13 @@ work:
       image: images/people.sap.com.jpg
       description: It is internal SAP social network with questions and answers like Stackoverflow
       skills_used:
-      - Slim
-      - CoffeeScript
-      - SASS
-      - Redis
-      - Mongodb
-      - Rails 4
-      - Rails 5
+        - Slim
+        - CoffeeScript
+        - SASS
+        - Redis
+        - Mongodb
+        - Rails 4
+        - Rails 5
 
   - job_position: Senior RoR Developer at Karmasoft
     date_start: May 2018
@@ -181,10 +188,16 @@ work:
     - project_title: Karmasoft Joga Studio
       project_url: karmasoftonline.com
       image: images/karmasoft.jpg
+      features:
+        - Manage all front-desk tasks on one screen
+        - Create recurring memberships
+        - Manage staff, payroll and schedules
+        - "Accept all payment types: swipe card, chip card, e-check, NFC, Apple Pay"
+        - Easily embed your schedule, workshops & store on your website
       skills_used:
-      - Rails 3
-      - Rails 5
-      - PJAX
-      - SCSS
-      - Mysql
-      - Redis
+        - Rails 3
+        - Rails 5
+        - PJAX
+        - SCSS
+        - Mysql
+        - Redis
