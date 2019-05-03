@@ -1,4 +1,42 @@
 @media print {
+    .logo-title {
+        margin-top: 20mm;
+        display: block;
+        font-family: "Cutive Mono";
+        font-size: 77px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .info {
+        display: block;
+        min-height: 700px;
+        background-size: 100% auto;
+    }
+
+    .info-item {
+        min-height: 230px;
+    }
+
+    .box {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+
+    .box:nth-child(2n+1) {
+        margin-right: 10%;
+    }
+
+    .boxes {
+        display: block !important;
+    }
+
+    .global-header {
+        margin-top: 10mm;
+    }
+
     .letter {
         width: 100%;
         box-shadow: none;
@@ -20,6 +58,7 @@
     .content-container {
         width: 100%;
         display: block;
+        box-sizing: border-box;
     }
 
     .content-container .wrapper {
@@ -39,9 +78,9 @@
     }
 
     .boxes {
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: 200px 200px;
+        display: block;
+        /*grid-gap: 20px;*/
+        /*grid-template-columns: 200px 200px;*/
     }
 
     .projects-wrapper {
@@ -49,20 +88,12 @@
     }
 
     .projects {
-        display: grid;
-        grid-template-columns: 100% !important;
+        display: block !important;
+        /*grid-template-columns: 100% !important;*/
     }
 
     .project {
         width: 100%;
-        page-break-inside: avoid;
-        page-break-after: always;
-    }
-
-    .box {
-        height: auto;
-        page-break-inside: avoid;
-        page-break-after: always;
     }
 
     .boxes:after {
@@ -71,10 +102,45 @@
         display: table;
     }
 
-    html,body{
-        background: #efefef;
+    html, body {
+        background: white;
         height: 100%;
-        width: 210mm;
+        width: 210mm !important;
+    }
+
+    #what-i-am {
+    }
+
+    #what-i-can {
+        page-break-before: always;
+        clear: both;
+    }
+
+    .skill {
+        display: grid;
+        grid-template-columns: 40% auto;
+    }
+
+    #what-i-created {
+        page-break-before: always;
+    }
+
+    #skill-4,
+    #job-2,
+    #job-3,
+    #job-4,
+    #job-5,
+    #contacts {
+        page-break-before: always;
+    }
+
+    .contacts .box{
+        display: inline-block;
+        width: 90mm;
+        margin-right: 1mm;
+    }
+
+    .contacts {
+        margin-bottom: 146mm;
     }
 }
-

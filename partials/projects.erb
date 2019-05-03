@@ -1,11 +1,9 @@
-<h1>What i created</h1>
+<h1 id="what-i-created" class="global-header">What i created</h1>
 <section class="projects-wrapper">
-  <% @cv.work.reverse.each do |job| %>
-    <div>
-      <div>
-        <h2 class="date"><%= job.date_start %> - <%= job.date_end %></h2>
-        <div class="job-position"><%= job.job_position %></div>
-      </div>
+  <% @cv.work.reverse.each_with_index do |job, index| %>
+    <div id="job-<%= index %>">
+      <h2 class="date"><%= job.date_start %> - <%= job.date_end %></h2>
+      <div class="job-position"><%= job.job_position %></div>
       <div class="projects">
         <% job.projects.each do |project| %>
           <div class="box project">

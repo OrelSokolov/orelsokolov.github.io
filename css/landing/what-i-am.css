@@ -41,29 +41,3 @@
     color: white;
 }
 
-@media print {
-    .info {
-        grid-template-columns: repeat(1, 1fr);
-        min-height: 700px;
-        background-size: 100% auto;
-    }
-
-    .box {
-        float: left;
-        display: inline-block;
-        width: 45%;
-        height: 350px;
-        page-break-after: always !important;
-        margin-top: 20px;
-        box-sizing: border-box;
-    }
-
-    .box:nth-child(2n+1) {
-        margin-right: 10%;
-    }
-
-    .boxes {
-        display: block !important;
-    }
-
-}
