@@ -58,6 +58,10 @@ img {
     background: var(--red);
 }
 
+.sidebar > .active * {
+    background: var(--red);
+}
+
 .sidebar a:hover {
     cursor: pointer;
     transition: background .2s;

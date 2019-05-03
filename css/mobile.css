@@ -1,0 +1,182 @@
+@media (max-width: 768px) {
+
+    h2.hello:last-of-type:after {
+        animation-name: unset !important;
+    }
+
+    .logo-title {
+        margin-top: 20mm;
+        display: block !important;
+        font-family: "Cutive Mono";
+        font-size: 77px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .info {
+        display: block;
+        min-height: 700px;
+        background-size: 100% auto;
+    }
+
+    .info-item {
+        min-height: 230px;
+    }
+
+    .box {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+
+    .box:nth-child(2n+1) {
+        margin-right: 10%;
+    }
+
+    .boxes {
+        display: block !important;
+    }
+
+    .global-header {
+        margin-top: 10mm;
+    }
+
+    .letter {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .book-description {
+        box-shadow: none;
+        border: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .sidebar-container *{
+        background: #292929;
+    }
+
+    .content-container {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+    }
+
+
+    .content-container .wrapper {
+    }
+
+    section.main {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .book-description-container {
+        max-width: 100% !important;
+    }
+
+    .download-area {
+        display: none;
+    }
+
+    .boxes {
+        display: block;
+        /*grid-gap: 20px;*/
+        /*grid-template-columns: 200px 200px;*/
+    }
+
+    .projects-wrapper {
+        display: block !important;
+    }
+
+    .projects {
+        display: block !important;
+        /*grid-template-columns: 100% !important;*/
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .boxes:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    html, body {
+        background: #efefef;
+        height: 100%;
+        width: 100% !important;
+    }
+
+    body * {
+        background: #efefef;
+    }
+
+    #what-i-am {
+    }
+
+    #what-i-can {
+        page-break-before: always;
+        clear: both;
+    }
+
+    .skill {
+        display: grid;
+        grid-template-columns: 40% auto;
+    }
+
+    #what-i-created {
+        page-break-before: always;
+    }
+
+    .project:first-child {
+        page-break-before: unset;
+    }
+
+    .box * {
+        background: white;
+    }
+
+    .project {
+        page-break-before: always;
+    }
+
+    #skill-4,
+    #job-1,
+    #job-2,
+    #job-3,
+    #job-4,
+    #job-5,
+    #job-6,
+    #job-7,
+    #contacts {
+        page-break-before: always;
+    }
+
+    .contacts .box {
+        display: inline-block;
+        width: 90mm;
+        margin-right: 1mm;
+    }
+
+    .contacts {
+        margin-bottom: 146mm;
+    }
+
+    .info {
+        background-image: url('../images/me.jpg') !important;
+        background-color: #0c100f !important;
+        background-repeat: no-repeat;
+    }
+
+    .info-item,
+    .info-item * {
+        background: transparent;
+    }
+}
