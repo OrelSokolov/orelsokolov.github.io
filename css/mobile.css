@@ -15,12 +15,12 @@
 
     .info {
         display: block;
-        min-height: 700px;
+        min-height: 570px;
         background-size: 100% auto;
     }
 
     .info-item {
-        min-height: 230px;
+        min-height: 100px;
     }
 
     .box {
@@ -148,22 +148,8 @@
         page-break-before: always;
     }
 
-    #skill-4,
-    #job-1,
-    #job-2,
-    #job-3,
-    #job-4,
-    #job-5,
-    #job-6,
-    #job-7,
-    #contacts {
-        page-break-before: always;
-    }
-
     .contacts .box {
-        display: inline-block;
-        width: 90mm;
-        margin-right: 1mm;
+        display: block;
     }
 
     .contacts {
