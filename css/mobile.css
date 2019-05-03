@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
     h2.hello:last-of-type:after {
         animation-name: unset !important;
@@ -64,6 +64,7 @@
         width: 100%;
         display: block;
         box-sizing: border-box;
+        padding: 10px !important;
     }
 
 
@@ -178,5 +179,12 @@
     .info-item,
     .info-item * {
         background: transparent;
+    }
+
+    .lang-logo {
+        height: 80px;
+    }
+    .ruby-logo {
+        height: 100px;
     }
 }
