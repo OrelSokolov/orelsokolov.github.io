@@ -1,7 +1,7 @@
 @media print {
     .logo-title {
         margin-top: 20mm;
-        display: block;
+        display: block !important;
         font-family: "Cutive Mono";
         font-size: 77px;
         padding: 20px;
