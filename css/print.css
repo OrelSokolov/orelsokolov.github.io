@@ -181,4 +181,9 @@
     .content-container {
         padding: 20px 50px;
     }
+
+    .skills-features {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
 }

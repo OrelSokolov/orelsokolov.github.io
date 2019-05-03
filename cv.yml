@@ -48,6 +48,20 @@ work:
       - project_title: nitroagent.com
         image: images/nitroagent.com.jpg
         description: Real estate web application for closed group of people.
+        features:
+          - Manage all transactions
+          - Easily email property links
+          - Easily connect with all parties
+          - Easily view your personal stats
+          - View calendar of all upcoming deadlines
+          - Your own free website to capture leads
+          - Manage all property details
+          - Record memo/journal entries
+          - Keep track of all showings
+          - Manage all tasks
+          - Full photo tours
+          - Offer management
+          - Manage all contacts
         skills_used:
         - Rails 3
         - AngularJS
@@ -64,6 +78,10 @@ work:
       - project_title: chorusaccess.org
         description: CHORUS leverages existing infrastructure to enable sustainable, cost-effective, and transparent public access to content reporting on funded research. By integrating services and open APIs, CHORUS optimizes funder identification, content discovery and long-term accessibility, compliance monitoring, and dashboard reporting.
         image: images/chorus.jpg
+        features:
+          - Provides a sustainable solution for government agencies, publishers, research officers, librarians, and authors to make publicly funded research more accessible.
+          - Makes research outputs easily and permanently discoverable, accessible, and verifiable by anyone in the world.
+          - "Focuses on five core services: Identification, Discovery, Access, Compliance and Preservation."
         skills_used:
         - JQuery
         - Sinatra
@@ -75,7 +93,7 @@ work:
     projects:
       - project_title: Scrooge, Web scraper
         image: images/scrooge.png
-        desription: The Scooge project, is a webscraper project to collect everything and all knowlegable about locations of storefronts internationally. Normal address information is turned into longitute and latitude using reverse geocoding providers.
+        description: The Scooge project, is a webscraper project to collect everything and all knowlegable about locations of storefronts internationally. Normal address information is turned into longitute and latitude using reverse geocoding providers.
         features:
           - Use Tor proxies to avoid blocking
           - Parallel jobs
@@ -103,30 +121,45 @@ work:
           - Jekyll
 
       - project_title: Orpiva, Fashion Search Engine
-        description: Need it but don’t know where to buy it? Using just a url or a photo snapped on your phone, Orpiva sifts through products from over 15,000 brands and retailers to find a perfect match or similar current stock.
+        description: ORPIVA is an omni-channel Machine Intelligence Platform empowering brands to monetise their audiences more effectively. Publishers and brands can connect with one of the largest networks of micro influencers globally. Deep Insight Analytics powered by Big Data, Machine Learning and AI provide unparalleled customer understanding and engagement.
         image: images/orpiva.com.jpg
         skills_used:
-        - Sinatra
-        - Bower
-        - RVM
-        - Bundler
-        - Datamapper ORM
-        - Slim
-        - CoffeeScript
-        - SASS
-        - RequireJS AMD
-        - Redis
-        - Unicorn
-        - Vagrant
-        - Docker
-        - Chef
+          - Sinatra
+          - Bower
+          - RVM
+          - Bundler
+          - Datamapper ORM
+          - Slim
+          - CoffeeScript
+          - SASS
+          - RequireJS AMD
+          - Redis
+          - Unicorn
+          - Vagrant
+          - Docker
+          - Chef
 
   - job_position: Lead RoR developer at NitroAgent.com
     date_start: July 2015
     date_end: January 2016
     projects:
       - project_title: nitroagent.com
+        description: Real estate web application for closed group of people.
         image: images/nitroagent.com.jpg
+        features:
+          - Manage all transactions
+          - Easily email property links
+          - Easily connect with all parties
+          - Easily view your personal stats
+          - View calendar of all upcoming deadlines
+          - Your own free website to capture leads
+          - Manage all property details
+          - Record memo/journal entries
+          - Keep track of all showings
+          - Manage all tasks
+          - Full photo tours
+          - Offer management
+          - Manage all contacts
         skills_used:
         - Rails 4
         - Bower
@@ -146,6 +179,19 @@ work:
     projects:
       - project_title: LPS - Plumbing App
         image: images/lps.png
+        description: App helps to calculate prices for plumbing companies. This software has been created for business owners just like you in the service industry. As a business owner you need a way to follow through with results to make sure you not leaving anything out. If you want to fully optimize your sales team, you must create measurable results. And one of the best ways to do so is by using the Flat rate price book app along with the Profit Generator app.
+        features:
+          - Create a fiercely loyal customer base
+          - Raise employee morale
+          - Weed out the slacker employees
+          - Employees work at THEIR pace.
+          - Quickly double-check invoices
+          - Employees will WANT to sell your business
+          - Employees create their own bonuses
+          - Customers will have more confidence seeing the prices. Nothing to hide!
+          - Employees are paid by the minute, not by the hour, salary or commission
+          - Confidence knowing that every paid job is pure profit!
+          - Employees cannot manipulate prices
         skills_used:
         - Bower
         - Nodejs
@@ -160,6 +206,14 @@ work:
         description: The seller has a possibility to create a store, display products in catalogue, manage orders, refund items, chat with buyers and view analytics on the number of sold/viewed products.
           In the role of admin, it’s possible to сhange banners on homepage and adjust content on static pages using Summernote WYSIWYG editor.
           On the buyer’s side, one can create an account, buy products, track the status of their order, request a refund and chat with sellers.
+        features:
+          - Product catalogue with search and filter functionality;
+          - Customizable profiles for buyers and sellers;
+          - Chat with sellers;
+          - Featured product analytics for sellers;
+          - Analytics on website sales for admin;
+          - Refund functionality;
+          - Customizable banners on home page.
         skills_used:
           - Ruby on Rails
           - ActiveMerchant
@@ -172,6 +226,13 @@ work:
       project_url: people.sap.com.jpg
       image: images/people.sap.com.jpg
       description: It is internal SAP social network with questions and answers like Stackoverflow
+      features:
+        - Connections (friends)
+        - Reputation badges
+        - Trainings
+        - Blog posts
+        - Avatar manipulation
+        - GDPR ready
       skills_used:
         - Slim
         - CoffeeScript
@@ -187,6 +248,7 @@ work:
     projects:
     - project_title: Karmasoft Joga Studio
       project_url: karmasoftonline.com
+      description: Karmasoft app is joga studio manager. Karmasoft is loaded with powerful features and easy integrations to help you manage your studio better, increase your profit, and be more productive for less.
       image: images/karmasoft.jpg
       features:
         - Manage all front-desk tasks on one screen
@@ -194,6 +256,13 @@ work:
         - Manage staff, payroll and schedules
         - "Accept all payment types: swipe card, chip card, e-check, NFC, Apple Pay"
         - Easily embed your schedule, workshops & store on your website
+        - Sales, Marketing and CRM Tools
+        - Online Sales
+        - Recurring Billing
+        - Staff and Payroll Management
+        - Smart Terminal
+        - Website Integration
+        - Marketing Automation
       skills_used:
         - Rails 3
         - Rails 5

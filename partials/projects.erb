@@ -13,14 +13,29 @@
             </div>
             <div>
               <p><%= project.description %></p>
-              <% if project.skills_used %>
-                <b class="i">Used technologies:</b>
-                <ul class="list-used-skills">
-                  <% project.skills_used.each do |skill| %>
-                    <li><%= skill %></li>
+              <div class="skills-features">
+                <div>
+                  <% if project.features %>
+                    <b class="i">Features</b>
+                    <ul class="list-used-skills">
+                      <% project.features.each do |feature| %>
+                        <li><%= feature %></li>
+                      <% end %>
+                    </ul>
                   <% end %>
-                </ul>
-              <% end %>
+                </div>
+                <div>
+                  <% if project.skills_used %>
+                    <b class="i">Used technologies:</b>
+                    <ul class="list-used-skills">
+                      <% project.skills_used.each do |skill| %>
+                        <li><%= skill %></li>
+                      <% end %>
+                    </ul>
+                  <% end %>
+                </div>
+
+              </div>
             </div>
           </div>
         <% end %>
