@@ -46,8 +46,8 @@ work:
     date_end: June 2014
     projects:
       - project_title: nitroagent.com
-        image: images/nitroagent.com
-        description: Simple real estate web application for closed group of people.
+        image: images/nitroagent.com.jpg
+        description: Real estate web application for closed group of people.
         skills_used:
         - Rails 3
         - AngularJS
@@ -59,10 +59,11 @@ work:
 
   - job_position: Frontend & Backend developer chorusaccess.org
     date_start: July 2014
-    date_end: Jyly 2014
+    date_end: July 2014
     projects:
       - project_title: chorusaccess.org
         description: CHORUS leverages existing infrastructure to enable sustainable, cost-effective, and transparent public access to content reporting on funded research. By integrating services and open APIs, CHORUS optimizes funder identification, content discovery and long-term accessibility, compliance monitoring, and dashboard reporting.
+        image: images/chorus.jpg
         skills_used:
         - JQuery
         - Sinatra
@@ -73,6 +74,7 @@ work:
 
     projects:
       - project_title: Scrooge, Web scraper
+        image: images/scrooge.png
         desription: The Scooge project, is a webscraper project to collect everything and all knowlegable about locations of storefronts internationally. Normal address information is turned into longitute and latitude using reverse geocoding providers.
         skills_used:
         - Bower
@@ -85,6 +87,7 @@ work:
 
       - project_title: Orpiva Blog
         description: Blog for Opiva project
+        image: images/blog.orpiva.com.png
 
         skills_used:
         - RVM
@@ -93,6 +96,7 @@ work:
 
       - project_title: Orpiva, Fashion Search Engine
         description: Need it but don’t know where to buy it? Using just a url or a photo snapped on your phone, Orpiva sifts through products from over 15,000 brands and retailers to find a perfect match or similar current stock.
+        image: images/orpiva.com.jpg
 
         skills_used:
         - Sinatra
@@ -134,21 +138,32 @@ work:
     date_end: February 2017
     projects:
       - project_title: LPS - Plumbing App
+        image: images/lps.png
         skills_used:
         - Bower
         - Nodejs
         - Puma
         - Vagrant
         - WickedPDF
-      - project_title: XXX Website
-      - project_title: SellBig - Online Store
+      - project_title: VR360.com
+        description: This is a cool video catalog for VR porn videos with blog, comments, search and etc.
+        image: images/vr360.jpg
+      - project_title: SellBig
+        image: images/sellbig.jpg
+        description: The seller has a possibility to create a store, display products in catalogue, manage orders, refund items, chat with buyers and view analytics on the number of sold/viewed products.
+          In the role of admin, it’s possible to сhange banners on homepage and adjust content on static pages using Summernote WYSIWYG editor.
+          On the buyer’s side, one can create an account, buy products, track the status of their order, request a refund and chat with sellers.
+        skills_used:
+          - Ruby on Rails
+          - ActiveMerchant
 
   - job_position: Mid developer at EPAM
     date_start: March 2017
     date_end: July 2018
     projects:
     - project_title: SAP People
-      project_url: people.sap.com
+      project_url: people.sap.com.jpg
+      image: images/people.sap.com.jpg
       description: It is internal SAP social network with questions and answers like Stackoverflow
       skills_used:
       - Slim
@@ -165,6 +180,7 @@ work:
     projects:
     - project_title: Karmasoft Joga Studio
       project_url: karmasoftonline.com
+      image: images/karmasoft.jpg
       skills_used:
       - Rails 3
       - Rails 5
