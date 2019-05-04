@@ -57,7 +57,7 @@ skills:
   - name: CI tools
     skills:
       - Jenkins
-      - CircleCi
+      - CircleCI
       - HoundCI
       - Airbrake
   - name: DB skills
