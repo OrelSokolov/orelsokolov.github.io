@@ -66,6 +66,7 @@ skills:
       - Postgres
       - SQLite
       - MongoDB
+      - Redis
   - name: OS skills
     skills:
       - Windows
