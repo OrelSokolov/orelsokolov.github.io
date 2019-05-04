@@ -18,11 +18,7 @@ skills:
       - RSpec
       - Cucumber
       - Unicorn
-      - Swagger
       - Phantom
-  - name: Go Backend
-    skills:
-      - Mux
   - name: Frontend
     skills:
       - HTML5
@@ -37,11 +33,26 @@ skills:
       - HAML
       - SLIM
       - SASS
+      - jQuery
+      - Coffee
+      - ES6
+  - name: Go Backend
+    skills:
+      - Mux
+      - GRPC
   - name: DevOps
     skills:
       - Vagrant
       - Docker
       - Chef
+      - k8s
+      - Compose
+  - name: Micro Services
+    skills:
+      - Swagger
+      - Thrift
+      - Kafka
+      - RabbitMQ
 
 education:
   university_name: Belarusian State University
