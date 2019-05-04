@@ -178,6 +178,18 @@
         display: grid !important;
         grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)) !important;
     }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .contacts {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)) !important;
+    }
+
+    .contacts .box h3 {
+        font-size: 17px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -195,13 +207,13 @@
     }
 
     .contacts {
-        display: grid !important;
-        grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)) !important;
+        display: block;
     }
 
-    .contacts .box h3 {
-        font-size: 17px;
+    .contacts .box {
+        display: block;
     }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
