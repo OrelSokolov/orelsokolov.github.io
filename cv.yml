@@ -9,24 +9,39 @@ description: |
   Hi, I am a senior Ruby on Rails developer with over 5 years' experience involving agile software development practices,
   analysis, design, implementation and testing Ruby applications. Very motivated, self-organized.
 skills:
-  - Ruby on Rails
-  - Sinatra
-  - HTML5
-  - css3
-  - ERB
-  - HAML
-  - SLIM
-  - SASS\SCSS
-  - Unicorn
-  - Puma
-  - Thin
-  - Rack
-  - RSpec
-  - FactoryGirl
-  - Cucumber
-  - Vagrant
-  - Docker
-  - Chef
+  - name: Ruby Backend
+    skills:
+      - Rails
+      - Sinatra
+      - Rack
+      - Puma
+      - RSpec
+      - Cucumber
+      - Unicorn
+      - Swagger
+      - Phantom
+  - name: Go Backend
+    skills:
+      - Mux
+  - name: Frontend
+    skills:
+      - HTML5
+      - ERB
+      - VueJS
+      - React
+      - Redux
+      - AngularJS
+      - Webpack
+      - Bower
+      - css3
+      - HAML
+      - SLIM
+      - SASS
+  - name: DevOps
+    skills:
+      - Vagrant
+      - Docker
+      - Chef
 
 education:
   university_name: Belarusian State University

@@ -298,6 +298,16 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.skill-boxes {
+    grid-template-columns: repeat(auto-fit, 150px);
+}
+
+.skill-boxes .box h3 {
+    margin: 0;
+    font-size: 20pt;
+    font-weight: normal;
+}
+
 .box {
     background: var(--primary);
     text-align: center;

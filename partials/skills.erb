@@ -1,0 +1,14 @@
+<h1 id="what-i-use" class="global-header">What I use</h1>
+<section>
+  <% @cv.skills.each do |skill_group| %>
+    <h3><%= skill_group.name %></h3>
+    <section class="boxes skill-boxes">
+      <% skill_group.skills.each do |skill| %>
+        <div class="box">
+          <img src="images/skills/<%= skill %>.png" alt="">
+          <h3> <%= skill %> </h3>
+        </div>
+      <% end %>
+    </section>
+  <%end %>
+</section>

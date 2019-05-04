@@ -129,9 +129,12 @@
         grid-template-columns: 40% auto;
     }
 
-    #what-i-created {
+    #what-i-created,
+    #what-i-use
+    {
         page-break-before: always;
     }
+
 
     .project:first-child {
         page-break-before: unset;
@@ -186,4 +189,20 @@
         display: grid;
         grid-template-columns: 60% 40%;
     }
+
+    .skill-boxes .box {
+        display: inline-block;
+        width: 34mm;
+        margin-right: 2mm;
+        box-sizing: border-box;
+        padding-left: 5mm;
+        padding-right: 5mm;
+    }
+    .skill-boxes .box img {
+        width: 20mm;
+    }
+    .skill-boxes .box:nth-child(5n){
+        margin-right: 0;
+    }
+
 }
