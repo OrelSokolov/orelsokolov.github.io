@@ -53,6 +53,29 @@ skills:
       - Thrift
       - Kafka
       - RabbitMQ
+      - Protobuf
+  - name: CI tools
+    skills:
+      - Jenkins
+      - CircleCi
+      - HoundCI
+      - Airbrake
+  - name: DB skills
+    skills:
+      - MySQL
+      - Postgres
+      - SQLite
+      - MongoDB
+  - name: OS skills
+    skills:
+      - Windows
+      - OSX
+      - Ubuntu
+      - Debian
+      - OpenSuse
+      - Fedora
+      - FreeBSD
+
 
 education:
   university_name: Belarusian State University
@@ -270,7 +293,7 @@ work:
 
   - job_position: Senior RoR Developer at Karmasoft
     date_start: May 2018
-    date_end: Now
+    date_end: Nov 2018
     projects:
     - project_title: Karmasoft Joga Studio
       project_url: karmasoftonline.com
@@ -296,3 +319,17 @@ work:
         - SCSS
         - Mysql
         - Redis
+
+  - job_position: RoR Developer at EPAM
+    date_start: Dec 2018
+    date_end: Mar 2019
+    projects:
+      - project_title: Van Lanschot Fidor Integration
+        description: We were integrating Fidor software to Van Lanschot infrastructure. Details are under NDA.
+        image: images/vl.png
+        skills_used:
+          - Rails 5
+          - MySQL
+          - Vagrant
+          - Docker Compose
+          - Jenkins
