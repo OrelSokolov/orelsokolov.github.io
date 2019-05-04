@@ -185,6 +185,23 @@
         display: grid !important;
         grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)) !important;
     }
+
+    .box h3 {
+        font-size: 25px;
+    }
+
+    .box p {
+        font-size: 10pt;
+    }
+
+    .contacts {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)) !important;
+    }
+
+    .contacts .box h3 {
+        font-size: 17px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
