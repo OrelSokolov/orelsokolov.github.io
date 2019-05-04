@@ -75,6 +75,8 @@ skills:
       - OpenSuse
       - Fedora
       - FreeBSD
+      - VMware
+      - Virtualbox
 
 
 education:
@@ -322,14 +324,20 @@ work:
 
   - job_position: RoR Developer at EPAM
     date_start: Dec 2018
-    date_end: Mar 2019
+    date_end: May 2019
     projects:
       - project_title: Van Lanschot Fidor Integration
-        description: We were integrating Fidor software to Van Lanschot infrastructure. Details are under NDA.
+        description: We were integrating FidorOS software to Van Lanschot infrastructure. A proven open banking platform that helps build and run an entire digital bank whose distinct social and human touch gives you a distinct competitive advantage
         image: images/vl.png
+        features:
+          - Ability to use Fidor OS features below
+          - "Front end layer: Select our ready-to-use, white-labelled responsive internet and mobile application, or plug your existing channels into fOS."
+          - "API Layer: Use our API adapters and API management system to connect to any third party."
+          - "fidorOS essential modules: Enjoy vital banking modules like core customer account, payment and data management and onboarding functions, as well as transformative features like customer engagement through a community forum and invaluable customer intelligence through advanced analytics."
         skills_used:
           - Rails 5
           - MySQL
           - Vagrant
           - Docker Compose
           - Jenkins
+          - Other details are under NDA.
