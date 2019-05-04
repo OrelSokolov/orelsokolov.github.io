@@ -173,4 +173,24 @@
     .ruby-logo {
         height: 100px;
     }
+
+    .skills-wrapper .skill-boxes {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)) !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .skills-wrapper .skill-boxes {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)) !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
 }
