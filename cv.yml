@@ -342,3 +342,36 @@ work:
           - Docker Compose
           - Jenkins
           - Other details are under NDA.
+
+  - job_position: RoR Developer OnePoint
+    date_start: May 2019
+    date_end: Now
+    projects:
+      - project_title: Booming Games Casino Simulations
+        description: The project is about to make 100M simulations and make different reports on that. Project has many parts including custom RoR application to collect, store, view reports from simulator. Simulator is a an app that runs game simulations according to game mechanics.
+        image: images/booming-games.png
+        features:
+          - High Performance Ruby code must have
+          - Multi Threading
+          - Multi Processing
+          - Micro services
+        skills_used:
+          - Ruby
+          - Docker
+          - Gitlab CI
+          - Other details are under NDA.
+
+  - job_position: RoR Developer bePaid
+    date_start: Freelance
+    date_end: "-"
+    projects:
+      - project_title: bePaid gateway
+        description: The project is about to make 100M simulations and make different reports on that. Project has many parts including custom RoR application to collect, store, view reports from simulator. Simulator is a an app that runs game simulations according to game mechanics.
+        image: images/bepaid.png
+        features:
+          - Three Domain Secure 2.0 implementation for different providers
+        skills_used:
+          - Ruby
+          - Rack
+          - ActiveMerchant
+          - Other details are under NDA.
