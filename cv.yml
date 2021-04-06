@@ -345,7 +345,7 @@ work:
 
   - job_position: RoR Developer OnePoint
     date_start: June 2019
-    date_end: Now
+    date_end: Feb 2020
     projects:
       - project_title: Booming Games Casino Simulations
         description: The project is about to make 100M simulations and make different reports on that. Project has many parts including custom RoR application to collect, store, view reports from simulator. Simulator is a an app that runs game simulations according to game mechanics.
@@ -362,14 +362,18 @@ work:
           - Other details are under NDA.
 
   - job_position: RoR Developer bePaid
-    date_start: Freelance
-    date_end: "-"
+    date_start: Feb 2020
+    date_end: Feb 2021
     projects:
       - project_title: bePaid gateway
-        description: The project is about to make 100M simulations and make different reports on that. Project has many parts including custom RoR application to collect, store, view reports from simulator. Simulator is a an app that runs game simulations according to game mechanics.
+        description: Payment Gateway for Belarusian\European merchants.
         image: images/bepaid.png
         features:
           - Three Domain Secure 2.0 implementation for different providers
+          - Payment gateway stability improvements
+          - Redis cluster\sentinel setup for system
+          - Making system much more stable
+          - Gitlab CI parallel execution setup for more than 40 threads.
         skills_used:
           - Ruby
           - Rack
